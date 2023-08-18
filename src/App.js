@@ -100,7 +100,7 @@ function App() {
     */
   }
 
-   {/* //Example of useRef
+  {/* //Example of useRef
     return (
       <div className="App">
        <FocusInput />
@@ -109,9 +109,19 @@ function App() {
     */
   }
 
-  return (
+  {/* //Example of customHooks
+    return (
       <div className="App">
        <Customhooks />
+      </div
+    )
+    */
+  }
+
+  return (
+      <div className="App">
+       <h1>Welcome To The World Of React Hooks</h1>
+       <p>Just uncomment the specific hooks and see the examples</p>
       </div>
   );
 }
